@@ -1,10 +1,12 @@
 #include <stdio.h>
-/*
-*main-this is the entry point
-*Return-The return is taking an argument zero because the entry point is an int
-*/
+
+/**
+ * main- print string
+ * Return: give a zero value
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
+
