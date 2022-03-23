@@ -15,7 +15,7 @@ int _abs(int c)
 	if (c < 0)
 	{
 		result = -1 * c;
-		return result;
+		return (result);
 	}
 	else if (c == 0)
 	{
@@ -23,6 +23,6 @@ int _abs(int c)
 	}
 	else
 	{
-		return c;
+		return (c);
 	}
 }
