@@ -3,6 +3,8 @@
 /**
  * _islower- Entry point
  *
+ * @c: is a parameter
+ *
  * Return: always 0 (success).
  *
  */
