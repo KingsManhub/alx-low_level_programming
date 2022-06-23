@@ -1,5 +1,5 @@
 #include "main.h"
-$include "stdio.h"
+#include "stdio.h"
 
 /**
  * _pow_recursion - Search a string for any of a set of bytes.
