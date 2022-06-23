@@ -1,5 +1,5 @@
 #include "main.h"
-#includeb"stdio.h"
+#include "stdio.h"
 
 /**
  * factorial - finds factorial
