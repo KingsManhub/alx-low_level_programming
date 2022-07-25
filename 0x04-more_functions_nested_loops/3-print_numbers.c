@@ -1,18 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-#include "_putchar.c"
 
 /**
- * main - check the code
+ * print_numbers - it prints out numbers from 0 to 9 followed by a new line
  *
- * Return: Always 0.
+ * Return: void
  */
-
-int main(void)
-{
-    print_numbers();
-    return (0);
-}
 
 void print_numbers(void)
 {
@@ -22,4 +15,5 @@ void print_numbers(void)
 	{
 		_putchar(c);
 	}
+	_putchar('\n');
 }
