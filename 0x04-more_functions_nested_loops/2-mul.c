@@ -2,24 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * mul - it takes two values and multiply them
+ * @a - it represent the first argument
+ * @b - it representbthe second argument
  *
- * Return: Always 0.
+ * Return: always 0.
  */
-int main(void)
-{
-	int a, b;
-
-	printf("val1: ");
-	scanf("%d", &a);
-	printf("val2: ");
-	scanf("%d", &b);
-	printf("%d\n", mul(a, b));
-	
-	return (0);
-}
 
 int mul(int a, int b)
 {
-	return a*b;
+	return (a*b);
 }
