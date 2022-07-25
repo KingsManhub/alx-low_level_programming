@@ -1,0 +1,25 @@
+#include "main.h"
+#include <stdio.h>
+#include "_putchar.c"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+
+int main(void)
+{
+    print_numbers();
+    return (0);
+}
+
+void print_numbers(void)
+{
+	char c;
+
+	for(c=48; c<=57; ++c)
+	{
+		_putchar(c);
+	}
+}
