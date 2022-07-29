@@ -2,19 +2,20 @@
 
 /**
  * print_line - Draws a straight line in the terminal
+ * @n - The number of straight lines to be drawn.
  *
  * Return: Void
  */
 
 void print_line(int n)
 {
-	for (; n >= 0; --n)
+	int i;
+	for (i = 0; i <= n; ++i)
 	{
-		if (n == 0)
+		if (i <= 0)
 		{
-			_putchar('$');
+			_putchar('\n');
 		}
 		_putchar('_');
 	}
-	_putchar('\n');
 }
